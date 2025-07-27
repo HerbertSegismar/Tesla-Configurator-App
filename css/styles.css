@@ -1,0 +1,24 @@
+.btn-selected {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    padding: 8px;
+    transition: transform 0.3s;
+}
+
+.btn-selected:hover {
+    transform: scale(1) !important;
+}
+
+#top-bar {
+    transition: transform 4.5s ease-in-out !important;
+    transition: background-color 4.5s ease-in-out !important;
+}
+
+.visible-bar {
+    transform: translateY(0);
+}
+
+.hidden-bar {
+    transform: translateY(-100%);
+    background-color: #f21919;
+}
